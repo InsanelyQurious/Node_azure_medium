@@ -20,7 +20,7 @@ app.post('/',(req,res)=>{
 
     res.render('nextpage.ejs',{
         name: req.body.name,
-        stuff:req.body.stuff
+        stuff:req.body.age
     })
 })
 
